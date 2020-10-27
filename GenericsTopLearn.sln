@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsTopLearn", "GenericsTopLearn\GenericsTopLearn.csproj", "{F6C6342A-9C86-4CF3-A914-CA72A33386F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part02-Waste", "..\..\..\Desktop\کلاس درس\Generics\02_Generics\Part02-Waste\Part02-Waste\Part02-Waste.csproj", "{49993A98-0F27-4F9A-9461-9130BDF41813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C6342A-9C86-4CF3-A914-CA72A33386F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C6342A-9C86-4CF3-A914-CA72A33386F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C6342A-9C86-4CF3-A914-CA72A33386F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C6342A-9C86-4CF3-A914-CA72A33386F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49993A98-0F27-4F9A-9461-9130BDF41813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49993A98-0F27-4F9A-9461-9130BDF41813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49993A98-0F27-4F9A-9461-9130BDF41813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49993A98-0F27-4F9A-9461-9130BDF41813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F45F92BF-B249-45CF-B8D7-D481F5E2BDEB}
+	EndGlobalSection
+EndGlobal
