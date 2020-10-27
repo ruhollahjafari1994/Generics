@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsTopLearn", "Generic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part02-Waste", "..\..\..\Desktop\کلاس درس\Generics\02_Generics\Part02-Waste\Part02-Waste\Part02-Waste.csproj", "{49993A98-0F27-4F9A-9461-9130BDF41813}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part03-WasteWithGenerics", "..\..\..\Desktop\کلاس درس\Generics\03_Generics\Part03-WasteWithGenerics\Part03-WasteWithGenerics\Part03-WasteWithGenerics.csproj", "{67BE63B5-769F-4DD9-99BE-517E916E35EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{49993A98-0F27-4F9A-9461-9130BDF41813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49993A98-0F27-4F9A-9461-9130BDF41813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49993A98-0F27-4F9A-9461-9130BDF41813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BE63B5-769F-4DD9-99BE-517E916E35EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BE63B5-769F-4DD9-99BE-517E916E35EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BE63B5-769F-4DD9-99BE-517E916E35EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BE63B5-769F-4DD9-99BE-517E916E35EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
