@@ -97,3 +97,236 @@ namespace GenericSampleApp
 }
 
 //==============================================================================================================
+
+
+/// <summary>
+/// List Of All  DataType
+/// </summary>
+namespace Gen
+{
+
+    class ListInt
+    {
+        int[] ints = new int[3];
+        int currentIndex;
+
+        public int Length { get { return ints.Length; } }
+
+        public void Add(int i)
+        {
+            if (currentIndex == ints.Length)
+                Grow();
+            ints[currentIndex++] = i;
+        }
+
+        private void Grow()
+        {
+            int[] temp = new int[ints.Length * 2];
+            Array.Copy(ints, temp, ints.Length);
+            ints = temp;
+        }
+
+        public int Get(int index)
+        {
+            return ints[index];
+        }
+    }
+
+    //---------------------------------string List
+    class ListString
+    {
+        string[] ints = new string[3];
+        int currentIndex;
+
+        public int Length { get { return ints.Length; } }
+
+        public void Add(string i)
+        {
+            if (currentIndex == ints.Length)
+                Grow();
+            ints[currentIndex++] = i;
+        }
+
+        private void Grow()
+        {
+            string[] temp = new string[ints.Length * 2];
+            Array.Copy(ints, temp, ints.Length);
+            ints = temp;
+        }
+
+        public string Get(int index)
+        {
+            return ints[index];
+        }
+    }
+    //------------------------------------------->
+    //---------------------------------Double List
+    class ListDouble
+    {
+        double[] ints = new double[3];
+        int currentIndex;
+
+        public int Length { get { return ints.Length; } }
+
+        public void Add(double i)
+        {
+            if (currentIndex == ints.Length)
+                Grow();
+            ints[currentIndex++] = i;
+        }
+
+        private void Grow()
+        {
+            double[] temp = new double[ints.Length * 2];
+            Array.Copy(ints, temp, ints.Length);
+            ints = temp;
+        }
+
+        public double Get(int index)
+        {
+            return ints[index];
+        }
+    }
+    //------------------------------------------->
+
+
+
+
+    //---------------------------------Float List
+    class ListFloat
+    {
+        float[] ints = new float[3];
+        int currentIndex;
+
+        public int Length { get { return ints.Length; } }
+
+        public void Add(float i)
+        {
+            if (currentIndex == ints.Length)
+                Grow();
+            ints[currentIndex++] = i;
+        }
+
+        private void Grow()
+        {
+            float[] temp = new float[ints.Length * 2];
+            Array.Copy(ints, temp, ints.Length);
+            ints = temp;
+        }
+
+        public float Get(int index)
+        {
+            return ints[index];
+        }
+    }
+    //------------------------------------------->
+
+
+
+    //---------------------------------bool List
+    class Listbool
+    {
+        bool[] ints = new bool[3];
+        int currentIndex;
+
+        public int Length { get { return ints.Length; } }
+
+        public void Add(bool i)
+        {
+            if (currentIndex == ints.Length)
+                Grow();
+            ints[currentIndex++] = i;
+        }
+
+        private void Grow()
+        {
+            bool[] temp = new bool[ints.Length * 2];
+            Array.Copy(ints, temp, ints.Length);
+            ints = temp;
+        }
+
+        public bool Get(int index)
+        {
+            return ints[index];
+        }
+    }
+    //------------------------------------------->
+
+
+    //---------------------------------long List
+    class longList
+    {
+        long[] ints = new long[3];
+        int currentIndex;
+
+        public int Length { get { return ints.Length; } }
+
+        public void Add(long i)
+        {
+            if (currentIndex == ints.Length)
+                Grow();
+            ints[currentIndex++] = i;
+        }
+
+        private void Grow()
+        {
+            long[] temp = new long[ints.Length * 2];
+            Array.Copy(ints, temp, ints.Length);
+            ints = temp;
+        }
+
+        public long Get(int index)
+        {
+            return ints[index];
+        }
+    }
+    //------------------------------------------->
+
+
+    //---------------------------------char  List
+    class Listchar
+    {
+        char[] ints = new char[3];
+        int currentIndex;
+
+        public int Length { get { return ints.Length; } }
+
+        public void Add(char i)
+        {
+            if (currentIndex == ints.Length)
+                Grow();
+            ints[currentIndex++] = i;
+        }
+
+        private void Grow()
+        {
+            char[] temp = new char[ints.Length * 2];
+            Array.Copy(ints, temp, ints.Length);
+            ints = temp;
+        }
+
+        public char Get(int index)
+        {
+            return ints[index];
+        }
+    }
+    //------------------------------------------->
+
+    class MainClass
+    {
+        static void Main()
+        {
+            ListInt myInts = new ListInt();
+            myInts.Add(12);
+            myInts.Add(25);
+            myInts.Add(92);
+            myInts.Add(5);
+            for (int i = 0; i < myInts.Length; i++)
+            {
+                Console.WriteLine(myInts.Get(i));
+
+            }
+            Console.ReadLine();
+        }
+    }
+}

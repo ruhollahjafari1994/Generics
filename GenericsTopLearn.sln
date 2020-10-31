@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsTopLearn", "GenericsTopLearn\GenericsTopLearn.csproj", "{F6C6342A-9C86-4CF3-A914-CA72A33386F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49993A98-0F27-4F9A-9461-9130BDF41813} = {49993A98-0F27-4F9A-9461-9130BDF41813}
+		{67BE63B5-769F-4DD9-99BE-517E916E35EF} = {67BE63B5-769F-4DD9-99BE-517E916E35EF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part02-Waste", "..\..\..\Desktop\کلاس درس\Generics\02_Generics\Part02-Waste\Part02-Waste\Part02-Waste.csproj", "{49993A98-0F27-4F9A-9461-9130BDF41813}"
 EndProject
